@@ -1,3 +1,8 @@
+#El método de Euler matricial es una extensión del método de Euler para resolver sistemas de ecuaciones diferenciales ordinarias (EDOs) que pueden representarse en forma matricial.
+#El siguiente código es el método de Euler matricial en Python para resolver un sistema de ecuaciones diferenciales lineales acopladas.
+#Este código resolverá el sistema de ecuaciones diferenciales y te mostrará la evolución de 
+#𝑥1(𝑡) y 𝑥2(𝑡) con el tiempo. En este ejemplo, dado que la matriz 𝐴 representa un sistema oscilatorio (como un oscilador armónico simple), deberías observar un comportamiento oscilatorio en las gráficas.
+#Se Puede ajustar la matriz 𝐴, el vector 𝑏, y las condiciones iniciales para adaptarlo a otros sistemas de ecuaciones diferenciales que desees resolver.
 import numpy as np
 import matplotlib.pyplot as plt
 
