@@ -1,3 +1,4 @@
+#El siguiente código utiliza el método de Euler explícito para resolver un sistema de ecuaciones diferenciales, que en este caso describe el movimiento de un péndulo simple con fricción.
 import numpy as np
 import matplotlib.pyplot as plt
 
