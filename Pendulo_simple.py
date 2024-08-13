@@ -22,7 +22,8 @@ if __name__ == '__main__':
   for k in range(N-1):
     t[k+1] = t[k] + h
     X1[k+1] = X1[k] + h*(X2[k])
-    X2[k+1] = X2[k] + h*(-(g/l)*np.sin(X1[k+1])-(kf/m)*X2[k]) #Euler no jala sin el k+1
+    X2[k+1] = X2[k] + h*(-(g/l)*np.sin(X1[k+1])-(kf/m)*X2[k]) #Euler no jala sin el k+1, X1[k+1] 
+    #se utiliza para reflejar la posición más reciente en la ecuación que actualiza la velocidad, y esto ayuda a mejorar la estabilidad del método numérico.
 
   plt.figure
   plt.plot(t, X1)
