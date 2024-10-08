@@ -1,8 +1,8 @@
 /*
 Autor: Mario García
 Programa ESP32 para adquisición de datos de la carga de un capacitor en circuito RC
-date created: 05/06/24
-last modified: 06/10/24
+date created: 06/10/24
+last modified: 07/10/24
 */
 
 #include <stdio.h>
